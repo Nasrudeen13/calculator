@@ -1,0 +1,48 @@
+body{
+    background-color: #000000;
+background-image: linear-gradient(43deg, #000000 0%, #948694 46%, #000000 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container{
+    margin: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.box{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgb(0,0,0,0.2);
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+form .display{
+    display: flex;
+    justify-content:flex-end;
+} 
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+form input.equal{
+    width: 145px;
+}
+form input.opreator{
+    color: skyblue;
+}
